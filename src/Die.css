@@ -1,0 +1,15 @@
+.Die {
+  display: inline-block;
+}
+
+.Die-style {
+  margin: 5px;
+  font-size: 1.5rem;
+}
+
+.Die-style:hover {
+  transform: translate(12px);
+  transition-property: transform;
+  transition-duration: 0s;
+  transition-delay: 0s;
+}
